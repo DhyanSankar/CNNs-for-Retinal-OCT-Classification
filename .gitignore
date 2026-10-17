@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded data and experiment artifacts
+/data/
+/results/
+/checkpoints/
+*.pt
+*.pth
+*.npz
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
